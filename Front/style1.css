@@ -1,0 +1,211 @@
+
+
+#left
+{
+	overflow-y:scroll;
+}
+#signup a
+{
+	color:white;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+.content {
+  padding: 16px;
+}
+
+.ge
+{ bottom:30px;
+right:30px;
+	
+	position:fixed;
+	
+	border-radius:17px;
+	color:black;
+	background-color:white;
+	padding:18px;
+	display:none;
+}
+.ge:hover
+{background-color:black;
+color:white;
+}
+.end
+{
+font-family:vernada;
+font-size:20px;
+color:white;
+}
+.end tr
+{
+padding:10px 10px;
+background-color:#676767;
+
+}
+.end tr td
+{
+	padding:2px 50px;
+	
+}
+.h4
+{
+	
+	font-family:verdana;
+	margin-top:20px;
+	font-size:1.6em;
+	font-weight:bold;
+	font-variant:small-caps;
+	color:#00A1F1;
+}
+	
+
+	
+
+.main
+{
+	width:100%;
+	overflow:hidden;
+   background-color:#411000;
+   
+   
+	
+}
+.main ul{
+	list-style-type:none;
+	
+	padding:0;
+	margin:0;
+	
+	
+	
+}
+.main ul li
+{
+	float:left;
+
+	
+
+	
+}
+.main ul li a
+{
+	
+		color:#d9d9d9;
+	font-family:arial,sans-serif;
+	padding:20px 20px;
+	display:block;
+	
+	
+    
+
+	text-decoration:none;
+	
+}
+.main ul li a:hover
+{
+	color:white;
+}
+.scroll
+{
+	background-color:#262626;
+	color:white;
+     display:none;
+		position:fixed;
+		bottom:30px;
+		right:30px;
+		z-index:99;
+		border:none;
+		outline:none;
+	
+	border-radius:20px;
+	padding:10px 10px;
+}
+#bt:hover{
+	background-color:#00e6e6;
+	color:black;
+}
+.toggle
+{
+	width:100%;
+	background:#;
+	
+	box-sizing:box-border;
+	padding:10px 20px;
+	color:white;
+	display:none;
+	font-size:30px;
+}
+@media(max-width:960px)
+{
+	.toggle
+	{
+		display:block;
+	}
+	#l
+	{
+		display:none;
+	}
+	.main ul
+	{
+		display:none;
+	}
+ #l li a
+ {
+	 text-align:center;
+ }
+}
+#l
+{
+	width:100%;
+		display:none;
+}
+#l li
+{
+	display:block;
+float:none;
+}
+	
+@media(max-width:575px)
+{
+	.l
+	{
+		margin-left:50px;
+		
+	}
+	.h4
+	{
+		text-align:center;
+		font-size:22px;
+	}
+}
+.l
+{
+	font-family:vernada;
+	
+	left:27px;
+	top:82px;
+	padding:20px 10px;
+	color:#668cff;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:40px;
+	
+}
+
+.loco
+{
+	font-size:50px;
+	color:#007bff;
+	font-family:vernada;
+	
+	
+}
+.l:hover
+{text-decoration:none;
+}

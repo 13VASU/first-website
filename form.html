@@ -1,0 +1,123 @@
+<html>
+<head>
+<style>
+
+
+.header
+{
+	height:50px;
+}
+.header h1
+{
+	font-family:"Lucida Grande";
+	color:#173e43;
+}
+
+.new
+{
+	height:750px;
+	width:600px;
+}
+
+</style>
+<script>
+	function fun1()
+	{
+		alert("The form is Submitted Successfully");
+	}
+	function fun2()
+	{
+		alert("The form is Reset");
+	}
+
+	function fun3(x)
+	{
+		x.style.background = "#dddfd4";
+		x.style.color = "black";
+	}
+</script>
+<title>
+</title>
+</head>
+<body bgcolor="#729f98">
+<div class="header">
+<h1><center>Product Review Form</center></h1>
+</div>
+<div class="new">
+	<form onsubmit="fun1()" onreset="fun2()">
+		<br><br>
+		Reviewer
+		<br>
+		<input type="text" name="Reviewer" onfocus="fun3(this)" size="20">
+		<br><br>
+		Which product did you buy?
+		<br>
+		<select name="brands" onfocus="fun3(this)">
+			<option value="Apple">Apple</option
+			<option value="Xiaomi">Xiaomi</option>
+			<option value="Samsung ">Samsung</option>
+			<option value="One Plus ">One Plus</option>
+			<option value="Oppo">Oppo</option>
+		</select>
+		<br><br>
+		Name of the Smartphone
+		<br>
+		<input type="text" name="smart" onfocus="fun3(this)" size="20px">
+		<br><br>
+
+		Rate this product
+		<br>
+		<select name="id" onfocus="fun3(this)">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+		</select>
+		<br><br>
+
+
+
+
+
+		Pros
+		<br>
+		<textarea rows="4" cols="50" name="pcomment" onfocus="fun3(this)" placeholder="Enter the text here"></textarea>
+
+		<br><br>
+
+
+
+		Cons
+		<br>
+		<textarea rows="4" cols="50" name="comment" onfocus="fun3(this)" placeholder="Enter the text here"></textarea>
+		<br><br>
+
+
+
+		Review
+		<br>
+		<textarea rows="8" cols="50" name="rcomment" onfocus="fun3(this)" placeholder="Enter the text here"></textarea>
+		<br><br>
+
+
+
+		Would you recommend this product?
+		<br>
+		<input type="radio" name="r" value="Yes">Yes<br>
+		<input type="radio" name="r" value="no">No<br>
+		<input type="radio" name="r" value="not">I am not sure<br>
+		<br><br>
+		<input type="Submit" value="Submit">&nbsp &nbsp &nbsp &nbsp<input type="Reset" value="Reset">
+	</form>
+	</table>
+
+</div>
+
+</body>
+</html>
+
+
+
+
+

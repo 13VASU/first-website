@@ -1,0 +1,151 @@
+
+
+
+
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+  color:black;
+}
+
+a:hover
+{
+  background-color:#bcd5d1;
+}
+
+a
+{
+  text-decoration: none;
+  font-family:"Avenir Next";
+  color:black;
+}
+
+
+.header 
+{
+  background-color: #26d0c9;
+  color: #fff;
+  height:80px;
+  width: 100%;
+  padding-top: 0px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list {
+  float: right;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+.header1
+{
+  background-color:grey;
+  color: #fff;
+  height:70px;
+  width: 100%;
+  padding-top:0px;
+}
+
+
+nav
+{
+  padding-top:20px;
+  font-size:20px;
+}
+
+
+.contents {
+  height:400px;
+  margin-top: 50px;
+}
+
+
+.contents h2
+{
+  color:black;
+  font-size: 40px
+}
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+  width:200px;
+}
+.contents-item a
+{
+  text-decoration: none;
+  color:grey;
+}
+
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.footer-logo{
+  font-size:32px;
+  float:left;
+}
+.footer-list
+{
+  float:right
+}
+
+.footer-list li
+{
+  padding-bottom:20px;
+}
+
+.footer {
+  /* Change the background-color to #2f5167 */
+  background-color: #2f5167;
+  
+  /* Change the color to #fff */
+  color:#fff;
+  
+  
+  /* Change the height to 120px */
+  height:120px;
+  /* Change the padding for all sides to 40px */
+  padding:40px;
+  
+  
+}
+
+
+.bg-dark
+{
+  float:right;
+}
